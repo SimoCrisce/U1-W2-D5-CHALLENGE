@@ -1,0 +1,144 @@
+/* Your styles here */
+body {
+  background-color: #e9edee;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  color: black;
+  font-size: 1.4rem;
+}
+
+header {
+  background-color: #222f3f;
+}
+
+.header {
+  padding: 0.5rem 2rem;
+}
+
+li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+li > a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header > img {
+  width: 8rem;
+}
+
+.navbar {
+  background-color: #364759;
+  padding: 0.5rem 2rem;
+}
+
+main {
+  margin-inline: 2rem;
+}
+
+.container-button {
+  text-align: center;
+}
+
+.container-button > button {
+  width: 100%;
+  background-color: #f56600;
+  border: none;
+  color: white;
+  padding-block: 0.5rem;
+  margin-block: 2rem;
+}
+
+.container-text {
+  background-image: url(../images/bg-image.png);
+  text-align: center;
+  background-size: cover;
+}
+
+.container-text > div {
+  padding-block: 3rem 1.8rem;
+}
+
+.container-gifts {
+  background-color: white;
+}
+
+.link {
+  color: #115663;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.image {
+  width: 23%;
+  display: inline-block;
+  object-fit: contain;
+  height: 100px;
+}
+
+.image > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.container-gifts {
+  padding: 1rem;
+}
+
+.container-gifts:first-child {
+  padding-bottom: 1rem;
+}
+
+.container-img {
+  text-align: center;
+  padding-block: 1.5rem 1rem;
+}
+
+.container-img > ul > li {
+  padding-inline: 0.5rem;
+}
+
+.container-img > ul {
+  margin-block: 0.5rem 0;
+}
+
+.backtotop {
+  background-color: #364759;
+  text-align: center;
+  padding-block: 1rem;
+}
+
+.backtotop > a {
+  color: white;
+}
+
+.footer {
+  background-color: #222f3f;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  padding-block: 5rem;
+}
+
+.footer > img {
+  width: 10rem;
+}
