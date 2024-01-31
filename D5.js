@@ -14,7 +14,7 @@ const pets = ["dog", "cat", "hamster", "redfish"];
 
 for (let i = 0; i < pets.length; i++) {
   const pet = pets[i];
-  console.log(pet);
+  console.log("Esercizio 1 ", pet);
 }
 
 /* ESERCIZIO 2
@@ -22,18 +22,21 @@ for (let i = 0; i < pets.length; i++) {
 */
 
 pets.sort();
-console.log(pets);
+console.log("Esercizio 2 ", pets);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
 pets.reverse();
-console.log(pets);
+console.log("Esercizio 3 ", pets);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+pets.push(pets.shift());
+console.log("Esercizio 4 ", pets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -78,17 +81,32 @@ console.log(cars);
 
 for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
-  console.log(cars);
+  console.log("Esercizio 6 ", cars[i]);
 }
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
+
+for (let i = 0; i < cars.length; i++) {
+  const carTrims = cars[i].trims[0];
+  justTrims.push(carTrims);
+}
+console.log("Esercizio 7 ", justTrims);
+
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color[0] === "b") {
+    console.log("Fizz");
+  } else {
+    console.log("Buzz");
+  }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
