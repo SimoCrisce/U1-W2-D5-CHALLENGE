@@ -113,9 +113,25 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
+while (i < numericArray.length) {
+  i++;
+  if (numericArray[i] === 32) break;
+  console.log(numericArray[i]);
+}
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const alphabet = "abcdefghijklmnopqrstuvwxyz";
+const letter = alphabet.split("");
+console.log(letter);
+switch (letterPosition) {
+  case charactersArray[0]:
+
+  default:
+    break;
+}
